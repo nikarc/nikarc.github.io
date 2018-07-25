@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nick Arcuri | Programmer</title>
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/milligram.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media_queries.css">
+</head>
+<body>
+  <head>
+    <nav>
+      <ul>
+        <a href="#about"><li>About</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </nav>
+  </head>
+  <div id="wrap">
+    <section id="hero">
+      <div>
+        <div id="self-img-wrap">
+          <img src="self.jpg" alt="Me" clss="me">
+        </div>
+        <h1>Nicholas Arcuri</h1>
+        <hr>
+        <p>Programmer</p>
+      </div>
+    </section>
+    <section id="about">
+      <div class="section-wrap">
+        <div class="section-header">
+          <h1>About Me</h1>
+          <hr>
+        </div>
+        <p>
+          Hi! I'm Nick. I have a passion for programming and electroincs. I work as a full stack web developer in mid town Manhattan specializing in Javascript, Node JS, Vue, Mongodb, and SQL. I also have a passion for iOS Development and have experience in Swift. I enjoy being part of a fast-paced team that builds apps from the idea stage, all the way to production. Interested in working with me? Visit the <a href="#contact">contact</a> section and drop me a line!
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="section-wrap">
+        <div class="section-header">
+          <h1>Projects</h1>
+          <hr>
+          <p>The projects I'm working on at the moment</p>
+        </div>
+        <ul id="project-list">
+          <li>
+            <img src="./Swift_logo_color_rgb.jpg" alt="Swift iOS">
+            <h4><a href="https://github.com/nikarc/ArtistHunt" target="_blank">ArtistHunt</a></h4>
+            <br>
+            <p>ArtistHunt is an iOS app written in Swift. Using the user's city, it gathers local venues via the SeatGeek api, and creates a spotify playlist of the performing artists' top tracks. Venue information and ticket purchasing is provided through the app.</p>
+          </li>
+          <li>
+            <img src="./nodejs-new-pantone-black.png" alt="Node JS">
+            <h4><a href="https://github.com/nikarc/ArtistHunt-Server" target="_blank">ArtistHunt Server</a></h4>
+            <br>
+            <p>Node/Express Server used as the back end for the ArtistHunt iOS application.</p>
+          </li>
+          <li>
+            <img src="./AWS_Lambda_logo.png" alt="AWS Lambda">
+            <h4><a href="https://github.com/nikarc/Musicapp-Lambda" target="_blank">ArtistHunt Lambda</a></h4>
+            <br>
+            <p>Lambda function used to repopulate users' ArtistHunt playlists every week.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="section-wrap">
+        <div class="section-header">
+          <h1>Contact Me</h1>
+          <hr>
+          <p>Drop me a line if you think I would be a great fit for your team!</p>
+        </div>
+        <form action="https://formspree.io/narcuri1@gmail.com" method="POST">
+          <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name">
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone">
+            <label for="comment">Comment</label>
+            <textarea name="comment" cols="30" rows="10"></textarea>
+          </fieldset>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <!-- links -->
+    </footer>
+  </div>
+</body>
+</html>
