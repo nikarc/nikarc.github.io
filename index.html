@@ -7,14 +7,14 @@
   <title>Nick Arcuri | Programmer</title>
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lato" rel="stylesheet">
   <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/milligram.min.css">
+  <link rel="stylesheet" href="styles/milligram.css">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/media_queries.css">
 </head>
 <body>
   <head>
     <nav>
-      <ul>
+      <ul id="full-size-nav">
         <a href="#about"><li>About</li></a>
         <a href="#projects"><li>Projects</li></a>
         <a href="#contact"><li>Contact</li></a>
@@ -88,7 +88,7 @@
             <label for="phone">Phone</label>
             <input type="tel" name="phone">
             <label for="comment">Comment</label>
-            <textarea name="comment" cols="30" rows="10"></textarea>
+            <textarea name="comment" cols="30" rows="10" style="color: white;"></textarea>
           </fieldset>
           <input type="submit" value="Submit">
         </form>
@@ -98,6 +98,15 @@
     <footer>
       <!-- links -->
     </footer>
+    <script>
+      $(function () {
+        $('#mobile-nav').mmenu({}, {
+          offCanvas: {
+            pageSelector: "wrap"
+          }
+        })
+      });
+    </script>
   </div>
 </body>
 </html>

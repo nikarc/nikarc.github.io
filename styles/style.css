@@ -4,7 +4,7 @@ nav {
   text-align: center;
 }
 
-nav ul {
+nav ul#full-size-nav {
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
@@ -12,7 +12,7 @@ nav ul {
   margin-bottom: 0;
 }
 
-nav ul li {
+nav ul#full-size-nav li {
   display: inline-block;
   color: white;
   font-family: 'Bree Serif', serif;
@@ -73,6 +73,10 @@ hr {
   border: 0;
   border-bottom: 1px dashed #fff;
   /* background: #999; */
+}
+
+button.hamburger {
+  background-color: transparent !important;
 }
 
 /* Hero */
@@ -166,12 +170,15 @@ hr {
   margin: 0 auto;
 }
 
-#contact form input {
-  color: white;
+#contact form input
+#contact form textarea {
+  color: white !important;
 }
 
 #contact form input:active,
-#contact form input:focus {
+#contact form input:focus,
+#contact form textarea:active,
+#contact form textarea:focus {
   border-color: #18bd9b;
 }
 
