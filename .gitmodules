@@ -1,0 +1,3 @@
+[submodule "Timely"]
+	path = Timely
+	url = git@github.com:nikarc/Timely.git
