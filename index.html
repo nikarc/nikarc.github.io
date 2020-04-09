@@ -1,103 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Nick Arcuri | Programmer</title>
-  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lato" rel="stylesheet">
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/milligram.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/media_queries.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>✌️ Nicholas Arcuri | Software Engineer</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
-<body>
-  <head>
-    <nav>
-      <ul id="full-size-nav">
-        <a href="#about"><li>About</li></a>
-        <a href="#projects"><li>Projects</li></a>
-        <a href="#contact"><li>Contact</li></a>
-      </ul>
-    </nav>
-  </head>
-  <div id="wrap">
-    <section id="hero">
-      <div>
-        <div id="self-img-wrap">
-          <img src="self.jpg" alt="Me" clss="me">
-        </div>
-        <h1>Nicholas Arcuri</h1>
-        <hr>
-        <p>Programmer</p>
-      </div>
-    </section>
-    <section id="about">
-      <div class="section-wrap">
-        <div class="section-header">
-          <h1>About Me</h1>
-          <hr>
-        </div>
-        <p>
-          Hi! I'm Nick. I have a passion for programming and electroincs. I work as a full stack web developer in mid town Manhattan specializing in Javascript, Node JS, Vue, Mongodb, and SQL. I also have a passion for iOS Development and have experience in Swift. I enjoy being part of a fast-paced team that builds apps from the idea stage, all the way to production. Interested in working with me? Visit the <a href="#contact">contact</a> section and drop me a line!
-        </p>
-      </div>
-    </section>
-    <section id="projects">
-      <div class="section-wrap">
-        <div class="section-header">
-          <h1>Projects</h1>
-          <hr>
-          <p>The projects I'm working on at the moment</p>
-        </div>
-        <ul id="project-list">
-          <li>
-            <img src="./Swift_logo_color_rgb.jpg" alt="Swift iOS">
-            <h4><a href="https://github.com/nikarc/ArtistHunt" target="_blank">ArtistHunt</a></h4>
-            <br>
-            <p>ArtistHunt is an iOS app written in Swift. Using the user's city, it gathers local venues via the SeatGeek api, and creates a spotify playlist of the performing artists' top tracks. Venue information and ticket purchasing is provided through the app.</p>
-          </li>
-          <li>
-            <img src="./nodejs-new-pantone-black.png" alt="Node JS">
-            <h4><a href="https://github.com/nikarc/ArtistHunt-Server" target="_blank">ArtistHunt Server</a></h4>
-            <br>
-            <p>Node/Express Server used as the back end for the ArtistHunt iOS application.</p>
-          </li>
-          <li>
-            <img src="./AWS_Lambda_logo.png" alt="AWS Lambda">
-            <h4><a href="https://github.com/nikarc/Musicapp-Lambda" target="_blank">ArtistHunt Lambda</a></h4>
-            <br>
-            <p>Lambda function used to repopulate users' ArtistHunt playlists every week.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section id="contact">
-      <div class="section-wrap">
-        <div class="section-header">
-          <h1>Contact Me</h1>
-          <hr>
-          <p>Drop me a line if you think I would be a great fit for your team!</p>
-        </div>
-        <form action="https://formspree.io/narcuri1@gmail.com" method="POST">
-          <fieldset>
-            <label for="name">Name</label>
-            <input type="text" name="name">
-            <label for="email">Email</label>
-            <input type="email" name="email">
-            <label for="phone">Phone</label>
-            <input type="tel" name="phone">
-            <label for="comment">Comment</label>
-            <textarea name="comment" cols="30" rows="10" style="color: white;"></textarea>
-          </fieldset>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-    </section>
-
-    <footer>
-      <!-- links -->
-    </footer>
-  </div>
-</body>
+    <body>
+        <header>
+            <img src="./self.jpg" alt="Nicholas Arcuri | Full Stack Engineer">
+            <h1 class="logo">Nicholas Arcuri</h1>
+            <nav>
+                <ul>
+                    <a href="https://github.com/nikarc" target="_blank">
+                        <li>GitHub</li>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nicholasarcuri/" target="_blank">
+                        <li>LinkedIn</li>
+                    </a>
+                    <a href="mailto:narcuri1@gmail.com">
+                        <li>Email</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <section id="Hero">
+            <div>
+                <div>
+                    <span class="tag">
+                        Currently Looking
+                    </span>
+                </div>
+            </div>
+            <h1 class="title-line">Full Stack Engineer based in NYC with five years of experience in all facets of the web development tech stack. Committed to clean, concise code and a passion to learn new technologies and solve exciting new problems!</h1>
+        </section>
+        <section id="Resume">
+            <div>
+                <h2 class="section-header">RESUME</h2>
+            </div>
+            <div class="job">
+                <h3 class="job-title">Software Engineer</h3>
+                <small class="job-details">
+                    <a href="https://onerockwell.com" target="_blank">One Rockwell</a>
+                    <span>2019-2020</span>
+                </small>
+                <div class="job-responsibilities">
+                    <ul>
+                        <li>Translated designs generated by in-house creative team into pixel-perfect Shopify e-commerce websites</li>
+                        <li>Audited sites for performance and page speed, making improvements up to 100% in some instances</li>
+                        <li>Built backend solutions for reporting and data ingestion/manipulation using Ruby/PHP/NodeJS and implemented them via Google Cloud Platform/Kubernetes</li>
+                        <li>Participated in team tech talks and hack-a-thons</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="job">
+                <h3 class="job-title">Full Stack Web Developer</h3>
+                <small class="job-details">
+                    <span>DevTheWeb</span>
+                    <span>2015-2019</span>
+                </small>
+                <div class="job-responsibilities">
+                    <ul>
+                        <li>Programmed Frontend and Backend solutions for a live-event ticketing web application </li>
+                        <li>Programmed Frontend and Backend solutions for a multi-tenancy content management system</li>
+                        <li>Oversaw and implemented code all the way from the research stage to final build, finding solutions to produce a production-ready application</li>
+                        <li>Built backend solutions for reporting and data ingestion/manipulation using Ruby/PHP/NodeJS and implemented them via Google Cloud Platform/Kubernetes</li>
+                        <li>Worked on small, agile team that could make deliverables in weekly sprints</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>👨‍💻</p>
+        </footer>
+    </body>
 </html>
