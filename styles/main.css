@@ -160,6 +160,27 @@ section#Resume h2.section-header {
 
 section#Resume .job ul {
     margin-top: 30px;
+    list-style: none;
+}
+
+section#Resume .job ul li {
+    padding-left: 30px;
+    position: relative;
+}
+
+section#Resume .job ul li::before {
+    --size: 15px;
+    content: "";
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    background-image: url('../checkmark-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 section#Resume .job ul p {
